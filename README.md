@@ -35,11 +35,12 @@ Asegúrate de tener instalados los siguientes requisitos para ejecutar el proyec
 ## Instalación
 
 1. **Configura MySQL**
-   Asegúrate de tener MySQL instalado y ejecutándose.
-   Crea una base de datos para el proyecto (por ejemplo, `juegos_api`).
+   Asegúrate de tener MySQL instalado y ejecutándose. Existe un archivo .sql de ejemplo dentro de los archivos llamado **gamesapi.sql**.
+
+   Crea una base de datos para el proyecto (por ejemplo, `gamesapi`).
 
    ```sql
-   CREATE DATABASE juegos_api;
+   CREATE DATABASE gamesapi;
 
 2. **Clona el repositorio**
 
