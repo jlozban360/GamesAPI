@@ -45,7 +45,7 @@ Asegúrate de tener instalados los siguientes requisitos para ejecutar el proyec
 2. **Clona el repositorio**
 
    ```bash
-   git clone https://github.com/tu-usuario/juegos-api.git
+   git clone https://github.com/jlozban360/GamesAPI.git
    ```
 
 3. **Configura la conexión a MySQL**
@@ -53,7 +53,7 @@ Asegúrate de tener instalados los siguientes requisitos para ejecutar el proyec
    Abre el archivo `src/main/resources/application.properties` y configura los parámetros de conexión a la base de datos MySQL:
 
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/juegos_api?useSSL=false&serverTimezone=UTC
+   spring.datasource.url=jdbc:mysql://localhost:3306/gamesapi
    spring.datasource.username=tu_usuario_mysql
    spring.datasource.password=tu_contraseña_mysql
    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
